@@ -6,11 +6,8 @@ jobs:
   cypress-run:
      runs-on: ubuntu-latest
 
-    name: Cypress Tests
-
      steps: 
       -  uses: actions/checkout@v2
       -  uses: cypress-io/github-action@v4
 
-      with:
-         browser: chrome
+    
